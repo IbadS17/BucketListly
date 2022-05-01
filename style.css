@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(Images/lake-mcdonald-1874263_1920.jpg);
+    background-size: cover;
+    min-height: 657px;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+                            /* Navbar Starts */
+
+.nav-bar{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 35% 9% 9% 9% 9% 11% 7% 11%;
+    justify-items: left;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 0px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.btn{
+    padding: 1px 20px 1px 20px;
+    margin: 4px;
+    border-radius: 8px;
+    background-color: yellow;
+}
+.btn2{
+    background-color: rgba(255, 255, 255, 0.123);
+    padding: 1px 20px 1px 20px;
+    margin: 4px;
+    border-radius: 8px;
+}
+.flag-img {
+    height: 29px;
+    margin-left: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+                                /* Navbar end */
+
+                                /* Main Home page Starts */
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+}
+
+.h-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 58px;
+    color: white;
+    text-align: center;
+    margin: 4px 2px;
+}
+.quote-bucketlistly{
+    color: white;
+    text-align: center;
+    font-size: 46px;
+    margin: 4px 2px;
+    font-family: 'Libre Bodoni', serif;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+.social-btn-1{
+    background-color: rgba(255, 255, 255, 0.123);
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px;
+    margin: 5px;
+    border: 2px solid white;
+    color: white;
+}
+.social-btn-2{
+    background-color: #215595;
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
+}
+.avail-sec{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.avl-img{
+    width: 46px;
+    height: 46px;
+    margin-top: 13px;
+    margin-left: 13px;
+    margin-right: 4px;
+}
+.avl-para{
+    font-family: 'Tapestry', cursive;
+}
+.pro-head{
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
